@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon/RealDevSquad.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Real Events</title>
+  <!-- Ícone de Apple no Navbar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    .navbar {
+      background: linear-gradient(to right, #f0f0f0, #ffffff);
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+    @media (max-width: 767px) {
+      footer .row {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-apple"></i> REAL DEV
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Eventos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Pesquisar</a></li>
+              <li><a class="dropdown-item" href="#">Criar</a></li>
+              <li><a class="dropdown-item" href="#">Editar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+        <!-- Barra de Pesquisa -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- CARROSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carrosel/red.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrosel/brasil.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrosel/best.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FIM DO CARROSEL -->
+
+    <div class="container my-2">
+      <h1 class="display-5 text-center">Destaques da Semana</h1>
+      <div class="row g-2">
+        <!-- Cards de Eventos de Futebol -->
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="assets/img/cards_destaque/1.png" class="card-img-top" alt="Clássicos Regionais">
+            <div class="card-body">
+              <h5 class="card-title">Clássicos Regionais</h5>
+              <p class="card-text">Descubra as datas e locais dos próximos confrontos entre os maiores rivais do futebol brasileiro.</p>
+              <a href="#" class="btn btn-primary">Ver Jogos</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="assets/img/cards_destaque/2.png" class="card-img-top" alt="Liga dos Campeões">
+            <div class="card-body">
+              <h5 class="card-title">Liga dos Campeões</h5>
+              <p class="card-text">Acompanhe os maiores clubes da Europa na luta pelo título mais prestigiado do continente recheado de craques.</p>
+              <a href="#" class="btn btn-primary">Explorar Partidas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="assets/img/cards_destaque/3.png" class="card-img-top" alt="Copa do Mundo 2026">
+            <div class="card-body">
+              <h5 class="card-title">Copa do Mundo 2026</h5>
+              <p class="card-text">Prepare-se para o maior evento de futebol do mundo com informações sobre seleções do mundo todo.</p>
+              <a href="#" class="btn btn-primary">Mais Informações</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="assets/img/cards_destaque/4.png" class="card-img-top" alt="Mercado de Transferências">
+            <div class="card-body">
+            <h5 class="card-title">Mercado de Transferências</h5>
+              <p class="card-text">Fique atualizado com as últimas transferências e rumores do mercado de futebol.</p>
+              <a href="#" class="btn btn-primary">Ver Transferências</a>
+            </div>
+          </div>
+        </div>
+        <!-- Fim dos Cards de Eventos de Futebol -->
+      </div>
+
+      <!-- Fotos de eventos -->
+      <h1 class="display-5 text-center">Fotos de Eventos</h1>
+      <div class="row g-2 justify-content-center">
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/pele.png" class="img-fluid" alt="Pelé"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/pele2.png" class="img-fluid" alt="Pelé 2"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/ney.png" class="img-fluid" alt="Neymar"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/zidane.png" class="img-fluid" alt="Zidane"></div>
+        <div class="row g-2 justify-content-center">
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/coutinho.png" class="img-fluid" alt="Pelé"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/cr7.png" class="img-fluid" alt="Pelé 2"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/messi.png" class="img-fluid" alt="Neymar"></div>
+        <div class="col-12 col-md-6 col-xl-3"><img src="assets/img/fts_event/ronaldinho.png" class="img-fluid" alt="Zidane"></div>
+      </div>
+      <!-- Fim das Fotos de eventos -->
+    </div>
+  </main>
+
+  <footer class="mt-4">
+    <!-- Rodapé -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h5>Endereço</h5>
+          <p>Rua EA FC 25, 123, Centro, Itapeva-SP</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Páginas</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Desenvolvido por Nicolas</h5>
+          <p>Real Dev Squad - 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
