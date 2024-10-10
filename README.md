@@ -1,32 +1,33 @@
-# Real Dev Events
-
-### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
-
+![Real Events](assets/img/banner.png)
+# Real Events
 **Descrição:**
-O projeto "Real Dev Events" tem como objetivo criar uma plataforma para divulgação de eventos relacionados ao futebol. O sistema permite que os usuários visualizem eventos como jogos de futebol, torneios e transferências de jogadores. Além disso, o sistema possibilita a inscrição para receber novidades sobre esses eventos.
-
+O Real Events é uma plataforma dedicada à criação e divulgação de eventos culturais na cidade, com o objetivo de facilitar o acesso da população a atividades culturais e promover a interação entre organizadores e participantes. O aplicativo permite que organizadores criem e divulguem eventos como shows, exposições, festivais, e muito mais, enquanto os moradores da cidade podem facilmente descobrir e se inscrever em eventos de seu interesse.
+O Real Events resolve o problema da dispersão de informações sobre eventos culturais, reunindo todas as atividades em um único local, tornando a busca por eventos mais acessível e eficiente para todos.
 ## Índice
 - Funcionalidades
 - Tecnologias Utilizadas
 - Autores
 - Licença
-
 ## Funcionalidades
-- Listar eventos de futebol.
-- Permitir que os usuários se inscrevam para receber novidades.
-- Exibir fotos de eventos e jogadores famosos.
-- Interface responsiva e moderna para fácil navegação.
-
+ - Criar eventos.
+ - Editar e excluir eventos.
+ - Compartilhar eventos.
+ - Pesquisar eventos (Somente protótipo).
 ## Tecnologias Utilizadas
-- **Frontend:** HTML, CSS, Bootstrap
-- **Backend:** Não especificado (caso haja um backend, liste aqui)
-- **Banco de Dados:** Não especificado (caso haja um banco de dados, liste aqui)
+- **Linguagems:**
+
+![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+- **Frameworks:**
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 ## Autores
-- **Nicolas** - [GitHub](https://github.com/nicolas) - nicolas@senai.com.br
-- **Gabriel Alves** - [GitHub](https://github.com/gabrielalves) - gabriel@senai.com.br
-- **João Pedro** - [GitHub](https://github.com/joaopedro) - joao@senai.com.br
-- **Pedro Vitor** - [GitHub](https://github.com/pedrovitor) - pedro@senai.com.br
-
+- Nicolas Ricardo - nicolas-ricardo - nicolas.leao.senai@gmail.com
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+
