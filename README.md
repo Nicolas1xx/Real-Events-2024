@@ -1,28 +1,32 @@
-## Template de README.md (apague esta linha)
+# Real Dev Events
+
 ### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
-# Nome do Projeto
+
 **Descrição:**
-Escreva uma breve descrição do projeto, explicando seu propósito, funcionalidades e o problema que ele resolve.
+O projeto "Real Dev Events" tem como objetivo criar uma plataforma para divulgação de eventos relacionados ao futebol. O sistema permite que os usuários visualizem eventos como jogos de futebol, torneios e transferências de jogadores. Além disso, o sistema possibilita a inscrição para receber novidades sobre esses eventos.
+
 ## Índice
 - Funcionalidades
 - Tecnologias Utilizadas
 - Autores
 - Licença
+
 ## Funcionalidades
-- Listar as principais funcionalidades do projeto, como:
- - Exemplo: Adicionar tarefas em uma lista.
- - Exemplo: Editar e excluir tarefas.
- - Exemplo: Persistência de dados localmente.
+- Listar eventos de futebol.
+- Permitir que os usuários se inscrevam para receber novidades.
+- Exibir fotos de eventos e jogadores famosos.
+- Interface responsiva e moderna para fácil navegação.
+
 ## Tecnologias Utilizadas
-- **Linguagem/Frameworks:**
- Liste as principais tecnologias usadas no projeto, como por exemplo:
- - React Native
- - Expo
- - Node.js
- - Firebase
+- **Frontend:** HTML, CSS, Bootstrap
+- **Backend:** Não especificado (caso haja um backend, liste aqui)
+- **Banco de Dados:** Não especificado (caso haja um banco de dados, liste aqui)
+
 ## Autores
-Mencione o nome dos alunos responsáveis pelo desenvolvimento do projeto e seus respectivos contatos.
-- Nome do Aluno 1 - GitHub - aluno1@senai.com.br
-- Nome do Aluno 2 - GitHub - aluno2@senai.com.br
+- **Nicolas** - [GitHub](https://github.com/nicolas) - nicolas@senai.com.br
+- **Gabriel Alves** - [GitHub](https://github.com/gabrielalves) - gabriel@senai.com.br
+- **João Pedro** - [GitHub](https://github.com/joaopedro) - joao@senai.com.br
+- **Pedro Vitor** - [GitHub](https://github.com/pedrovitor) - pedro@senai.com.br
+
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
