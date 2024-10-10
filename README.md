@@ -1,4 +1,4 @@
-![Real Events](assets/img/banner.png)
+![Real Events](assets/favicon/RealDevSquad.ico)
 # Real Events
 **Descrição:**
 O Real Events é uma plataforma dedicada à criação e divulgação de eventos culturais na cidade, com o objetivo de facilitar o acesso da população a atividades culturais e promover a interação entre organizadores e participantes. O aplicativo permite que organizadores criem e divulguem eventos como shows, exposições, festivais, e muito mais, enquanto os moradores da cidade podem facilmente descobrir e se inscrever em eventos de seu interesse.
