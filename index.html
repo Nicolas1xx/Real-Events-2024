@@ -27,7 +27,6 @@
       padding: 10px;
     }
 
-    /* Novo rodapé */
     footer.bg-dark {
       background-color: #343a40;
     }
@@ -174,35 +173,79 @@
       <h1 class="display-5 text-center">Fotos de Eventos</h1>
       <div class="row g-2 justify-content-center">
         <div class="col-12 col-md-6 col-xl-3 event-photo">
-          <img src="assets/img/fts_event/pele.png" class="img-fluid" alt="Pelé">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/coutinho.png" class="img-fluid" alt="Coutinho">
         </div>
         <div class="col-12 col-md-6 col-xl-3 event-photo">
-          <img src="assets/img/fts_event/pele2.png" class="img-fluid" alt="Pelé 2">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/cr7.png" class="img-fluid" alt="Cristiano Ronaldo">
         </div>
         <div class="col-12 col-md-6 col-xl-3 event-photo">
-          <img src="assets/img/fts_event/messi.png" class="img-fluid" alt="Messi">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/messi.png" class="img-fluid" alt="Messi">
         </div>
         <div class="col-12 col-md-6 col-xl-3 event-photo">
-          <img src="assets/img/fts_event/cr7.png" class="img-fluid" alt="Cristiano Ronaldo">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/ney.png" class="img-fluid" alt="Neymar">
         </div>
         <div class="col-12 col-md-6 col-xl-3 event-photo">
-          <img src="assets/img/fts_event/zidane.png" class="img-fluid" alt="Zidane">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/pele.png" class="img-fluid" alt="Pelé">
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 event-photo">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/pele2.png" class="img-fluid" alt="Pelé 2">
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 event-photo">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/ronaldinho.png" class="img-fluid" alt="Ronaldinho">
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 event-photo">
+          <img src="../AULA 5 (FRONT END)/assets/img/fts_event/zidane.png" class="img-fluid" alt="Zidane">
+        </div>
+        
         </div>
       </div>
     </div>
   </main>
 
   <!-- Novo Rodapé -->
-  <footer class="bg-dark text-light">
+  <footer class="mt-4 bg-dark text-light">
     <div class="container">
-      <p>Fique por dentro de tudo sobre eventos esportivos com a Real Events.</p>
-      <form>
-        <div class="input-group">
-          <input type="email" class="form-control" placeholder="Digite seu email" aria-label="Email" required>
-          <button class="btn btn-outline-light" type="submit">Assine</button>
+      <div class="row">
+        <!-- Coluna de links rápidos -->
+        <div class="col-12 col-md-4">
+          <h5>Links Rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Home</a></li>
+            <li><a href="#" class="text-light">Eventos</a></li>
+            <li><a href="#" class="text-light">Quem Somos</a></li>
+            <li><a href="#" class="text-light">Contato</a></li>
+          </ul>
         </div>
-      </form>
-      <p class="mt-3">© 2024 Real Events - Todos os direitos reservados</p>
+
+        <!-- Coluna de redes sociais -->
+        <div class="col-12 col-md-4">
+          <h5>Redes Sociais</h5>
+          <ul class="list-unstyled d-flex">
+            <li><a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="#" class="text-light"><i class="bi bi-youtube"></i></a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna de Newsletter -->
+        <div class="col-12 col-md-4">
+          <h5>Receba Nossas Novidades</h5>
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Seu email">
+            </div>
+            <button type="submit" class="btn btn-outline-light">Inscrever</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Texto de direitos autorais -->
+      <div class="row mt-3">
+        <div class="col text-center">
+          <p>&copy; 2024 Real Events. Todos os direitos reservados.</p>
+        </div>
+      </div>
     </div>
   </footer>
 
